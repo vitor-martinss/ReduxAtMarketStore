@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+src/ReduxAtMarketStore.Static/.pnp
+src/ReduxAtMarketStore.Static/node_modules
+src/ReduxAtMarketStore.Static/.pnp.js
+
+# testing
+src/ReduxAtMarketStore.Static/coverage
+
+# next.jssrc/ReduxAtMarketStore.Static/.next/
+src/ReduxAtMarketStore.Static/out/
+
+# production
+src/ReduxAtMarketStore.Static/build
+
+# misc
+src/ReduxAtMarketStore.Static/.DS_Store
+src/ReduxAtMarketStore.Static/*.pem
+
+# debug
+src/ReduxAtMarketStore.Static/npm-debug.log*
+src/ReduxAtMarketStore.Static/yarn-debug.log*
+src/ReduxAtMarketStore.Static/yarn-error.log*
+
+# local env files
+src/ReduxAtMarketStore.Static/.env.local
+src/ReduxAtMarketStore.Static/.env.development.local
+src/ReduxAtMarketStore.Static/.env.test.local
+src/ReduxAtMarketStore.Static/.env.production.local
+
+# vercel
+src/ReduxAtMarketStore.Static/.vercel
